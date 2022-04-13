@@ -1,0 +1,25 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Install the latest PowerShell for new features and improvements! https://aka.ms/PSWindows
+
+PS C:\Users\Vinita\Desktop> keytool -genkey -alias selfsigned_localhost_sslserver -keyalg RSA -keysize 2048 -validity 700 -keypass changeit -storepass changeit -keystore ssl-server.jks
+What is your first and last name?
+  [Unknown]:  localhost
+What is the name of your organizational unit?
+  [Unknown]:  Website
+What is the name of your organization?
+  [Unknown]:  Website
+What is the name of your City or Locality?
+  [Unknown]:  New York
+What is the name of your State or Province?
+  [Unknown]:  NY
+What is the two-letter country code for this unit?
+  [Unknown]:  US
+Is CN=localhost, OU=Website, O=Website, L=New York, ST=NY, C=US correct?
+  [no]:  yes
+
+Generating 2,048 bit RSA key pair and self-signed certificate (SHA256withRSA) with a validity of 700 days
+        for: CN=localhost, OU=Website, O=Website, L=New York, ST=NY, C=US
+PS C:\Users\Vinita\Desktop> New York
+
